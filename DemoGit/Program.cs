@@ -10,9 +10,23 @@ namespace DemoGit
     {
         static void Main(string[] args)
         {
+            ComandoUtente cmd = null;
+            bool uscita = false;
+            do
+            {
+                cmd = new ComandoUtente(Prompt());
+                switch (cmd.Nome)
+                {
+                    case "EXIT": uscita = true; break;
+                }
+            }
+            while (!uscita);
 
         }
-
-
+        static string Prompt()
+        {
+            Console.Write("\n>> ");
+            return Console.ReadLine();
+        }
     }
 }
