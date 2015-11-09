@@ -25,5 +25,10 @@ namespace DemoGit
             Array.Copy(list, 1, args, 0, args.Length);
             return args;
         }
+
+        private string[] AnalisiAvanzataRamoMaster()
+        {
+            return string[2];
+        }
     }
 }
