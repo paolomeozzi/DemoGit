@@ -26,9 +26,9 @@ namespace DemoGit
             return args;
         }
 
-        private string[] AnalisiAvanzataRamoMaster()
+        private string[] AnalisiAvanzata()
         {
-            return string[2];
+            return string[0];
         }
     }
 }
