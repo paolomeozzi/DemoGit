@@ -28,5 +28,10 @@ namespace DemoGit
             Console.Write("\n>> ");
             return Console.ReadLine();
         }
+
+        static void Visualizza()
+        {
+            Console.WriteLine("hello!");
+        }
     }
 }
