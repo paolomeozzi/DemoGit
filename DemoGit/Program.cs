@@ -31,7 +31,7 @@ namespace DemoGit
 
         static void Visualizza()
         {
-            Console.WriteLine("hello!");
+            Console.WriteLine("ciao!");
         }
     }
 }
